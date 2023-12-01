@@ -1,0 +1,43 @@
+[1mdiff --git a/Numero.py b/Numero.py[m
+[1mindex 6f03625..2911729 100644[m
+[1m--- a/Numero.py[m
+[1m+++ b/Numero.py[m
+[36m@@ -1,25 +1,14 @@[m
+ import random[m
+ [m
+[31m-def numero():[m
+[31m-    x = random.randint(1, 100)[m
+[31m-    a = None[m
+[31m-    [m
+[31m-    while x != a:[m
+[31m-        try:[m
+[31m-            a = int(input("Elige un número entero del 1 al 100: "))[m
+[31m-            if isinstance(a, int):[m
+[31m-                if a < 1 or a > 100:[m
+[31m-                    print("El número está fuera del rango (debe ser del 1 al 100).")[m
+[31m-                elif a < x:[m
+[31m-                    print("El número seleccionado es menor al correcto")[m
+[31m-                [m
+[31m-                elif a > x:[m
+[31m-                    print("El número seleccionado es mayor al correcto")[m
+[31m-            else:[m
+[31m-                print("Por favor ingresa un número entero")[m
+[31m-        except ValueError:[m
+[31m-            print("Ingresa un número entero válido.")[m
+[31m-    [m
+[31m-    print("¡Adivinaste!")[m
+[31m-[m
+[31m-numero()[m
+\ No newline at end of file[m
+[32m+[m[32mdef select_num():[m
+[32m+[m[32m    pass[m
+[32m+[m[32mdef player_guess():[m
+[32m+[m[32m    pass[m
+[32m+[m[32mdef verif_guess():[m
+[32m+[m[32m    pass[m
+[32m+[m[32mdef info_player():[m
+[32m+[m[32m    pass[m
+[32m+[m[32mdef status_game():[m
+[32m+[m[32m    pass[m
+[32m+[m[32mdef game():[m
+[32m+[m[32m    pass[m
